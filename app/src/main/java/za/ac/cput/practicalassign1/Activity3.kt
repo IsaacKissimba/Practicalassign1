@@ -32,14 +32,14 @@ class Activity3 : ComponentActivity() {
                 modifier = Modifier.fillMaxSize()
             ) {
                 Text(text = "CURRENT MODULES", fontSize = 24.sp, fontWeight = FontWeight.Bold)
-                Text(text = "Application Development: Practical", fontSize = 18.sp)
-                Text(text = "Application Development: Theory", fontSize = 18.sp)
-                Text(text = "Information System: Theory and Practical", fontSize = 18.sp)
-                Text(text = "Project Management: Theory and Practical", fontSize = 18.sp)
-                Text(text = "Project: Practical", fontSize = 18.sp)
-                Text(text = "Professional Practice: Theory", fontSize = 18.sp)
-                Text(text = "Project Presentation: Practical", fontSize = 18.sp)
-                Text(text = "Elective Mobile Programming: Practical", fontSize = 18.sp)
+                Text(text = "Application Development Practice: Practical- Year module", fontSize = 14.sp)
+                Text(text = "Application Development Theory: Theory- Year module", fontSize = 14.sp)
+                Text(text = "Information System: Theory and Practical- Year module", fontSize = 14.sp)
+                Text(text = "Project Management: Theory and Practical- Semester module", fontSize = 14.sp)
+                Text(text = "Project: Practical- Year module", fontSize = 14.sp)
+                Text(text = "Professional Practice: Theory- Semester module", fontSize = 14.sp)
+                Text(text = "Project Presentation: Practical- Year module", fontSize = 14.sp)
+                Text(text = "Elective Mobile Programming:- Semester module", fontSize = 14.sp)
 
                 Button(onClick = {
                     val navigate = Intent(this@Activity3, Activity2::class.java)
