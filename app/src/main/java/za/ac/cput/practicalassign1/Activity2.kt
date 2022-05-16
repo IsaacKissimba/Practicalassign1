@@ -25,6 +25,7 @@ class Activity2 : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+
             Column(
                 verticalArrangement = Arrangement.Top,
                 horizontalAlignment = Alignment.CenterHorizontally,
@@ -35,6 +36,8 @@ class Activity2 : ComponentActivity() {
                 Text(text = "Course: Information Communication and Technology", fontSize = 15.sp)
                 Text(text = "Student Number: 219383448", fontSize = 15.sp)
                 Button(onClick = {
+                    val navigate = Intent(this@Activity2, Activity3 ::class.java)
+                    startActivity(navigate)
                 }) {
                     Icon(
                         imageVector = Icons.Filled.Info,
